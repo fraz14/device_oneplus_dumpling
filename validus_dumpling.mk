@@ -24,6 +24,9 @@ $(call inherit-product, device/oneplus/dumpling/device.mk)
 # Inherit some common Validus stuff.
 $(call inherit-product, vendor/validus/config/common_full_phone.mk)
 
+TARGET_GAPPS_ARCH := arm64
+IS_PHONE := true
+
 PRODUCT_NAME := validus_dumpling
 PRODUCT_DEVICE := dumpling
 PRODUCT_MANUFACTURER := OnePlus
